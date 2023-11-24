@@ -1,0 +1,14 @@
+Schueler schüler1 = new Schueler("Felic", "Elmin", 1444474);
+				Note note1 = new Note(1, "Mathe");
+				Note note2 = new Note(1, "OOP");
+				Note note3 = new Note(1, "Winfo");
+				Note note4 = new Note(1.3, "Bwl");
+				Note note5 = new Note(2.3, "Rewe");
+				schüler1.hinzufuegen(note1);
+				schüler1.hinzufuegen(note2);
+				schüler1.hinzufuegen(note3);
+				schüler1.hinzufuegen(note4);
+				schüler1.hinzufuegen(note5);
+
+				schüler1.durschschnitt(schüler1.getNoten());
+                Math.round(((note/noten.size()) * 100.0)/100.0)

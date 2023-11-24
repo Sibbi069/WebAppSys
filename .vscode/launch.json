@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NotendurchschnittApplication",
+            "request": "launch",
+            "mainClass": "edu.fra.uas.notendurchschnitt.NotendurchschnittApplication",
+            "projectName": "notendurchschnitt"
+        },
+        {
+            "type": "java",
+            "name": "DurchschnittApplication",
+            "request": "launch",
+            "mainClass": "edu.fra.uas.notendurchschnitt.DurchschnittApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "DurchschnittApplication",
+            "request": "launch",
+            "mainClass": "edu.fra.uas.durchschnitt.DurchschnittApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "BeanBeispielApplication",
             "request": "launch",
             "mainClass": "edu.fra.uas.BeanBeispielApplication",
@@ -93,14 +114,14 @@
             "name": "Spring Boot-ChatApplication<ChatService>",
             "request": "launch",
             "mainClass": "edu.fra.uas.ChatApplication",
-            "projectName": "ChatService",
+            "projectName": "ChatService"
         },
         {
             "type": "java",
             "name": "Spring Boot-UserApplication<UserService>",
             "request": "launch",
             "mainClass": "edu.fra.uas.UserApplication",
-            "projectName": "UserService",
+            "projectName": "UserService"
         }
     ]
 }
